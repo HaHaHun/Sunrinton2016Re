@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bear_background"
+    android:gravity="center"
+    >
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/music"
+        android:layout_marginBottom="15dp"
+        android:layout_marginTop="40dp"
+        android:id="@+id/music"
+        />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:gravity="center"
+        >
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/memo"
+        android:id="@+id/memo"
+
+        />
+        <Button
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="30dp"
+            android:id="@+id/gotodinosaurlauncher"
+            />
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:background="@drawable/record"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="10dp"
+            android:id="@+id/record"
+            />
+    </LinearLayout>
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/calendar"
+        android:id="@+id/calendar"
+        />
+
+</LinearLayout>

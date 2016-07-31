@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#1e88e5"
+    android:gravity="center"
+    >
+    <ImageView
+        android:layout_width="250dp"
+        android:layout_height="230dp"
+        android:background="@drawable/triangletouch"
+        android:layout_marginRight="60dp"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:layout_marginTop="55dp"
+        android:text="화면에 보이시는 것과 같이 삼각형의 좌측을 클릭 시"
+        android:textSize="15dp"
+        />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#FFFFFF"
+        android:text="  그룹되어 있던 어플리케이션이 나타납니다."
+        android:layout_marginTop="5dp"
+        android:textSize="15dp"
+        />
+
+    <Button
+        android:layout_width="190dp"
+        android:layout_height="65dp"
+        android:background="@drawable/gonext"
+        android:layout_marginTop="45dp"
+        style="?android:attr/borderlessButtonStyle"
+        android:layout_marginBottom="50dp"
+        android:id="@+id/gotothirdactivity"
+        />
+</LinearLayout>
